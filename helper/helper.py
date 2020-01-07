@@ -6,9 +6,9 @@ from pathlib import Path
 import pandas as pd
 
 ###### get all .csv  files from folder in SIA folder directory
-in_path = r'\\apgccfs03\Workgroups\SIA\Analytics Project Documents\rest of path address'
-out_path = r'\\apgccfs03\Workgroups\SIA\Analytics Project Documents\rest of path address'
-file_name = "file_name.csv"
+#in_path = r'\\apgccfs03\Workgroups\SIA\Analytics Project Documents\rest of path address'
+#out_path = r'\\apgccfs03\Workgroups\SIA\Analytics Project Documents\rest of path address'
+#file_name = "file_name.csv"
 
 def get_all_external_csv_data_from_directory(in_path, out_path, file_name):
     #get all .csv files from directory
@@ -40,9 +40,14 @@ def get_all_external_csv_data_from_directory(in_path, out_path, file_name):
 #get_all_external_csv_data_from_directory(in_path = in_path, out_path = out_path, file_name = file_name)
 
 ###### get all .xlsx files from folder in SIA folder directory
-in_path = r'\\apgccfs03\Workgroups\SIA\Analytics Project Documents\rest of path address'
-out_path = r'\\apgccfs03\Workgroups\SIA\Analytics Project Documents\rest of path address'
-file_name = "file_name.csv"
+#in_path = r'\\apgccfs03\Workgroups\SIA\Analytics Project Documents\rest of path address'
+#out_path = r'\\apgccfs03\Workgroups\SIA\Analytics Project Documents\rest of path address'
+#file_name = "file_name.csv"
+
+
+#in_path = r'data\data_raw\Sample_xlsx'
+#out_path = r'data\data_processed\Sample_csv'
+#file_name = "test_file_name_2.csv"
 
 def get_all_external_xlsx_data_from_directory(in_path, out_path, file_name):
     #set extension
